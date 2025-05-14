@@ -1,0 +1,15 @@
+{
+  "private": true,
+  "name": "@danieleloscozzese/redirection-check",
+  "version": "1.0.0",
+  "description": "A small page to check redirection behaviour.",
+  "author": "Daniel Arthur Gallagher <npm@danielarthurgallagher.dev>",
+  "scripts": {
+    "start": "serve src"
+  },
+  "license": "Unlicense",
+  "devDependencies": {
+    "prettier": "3.5.3",
+    "serve": "^14.2.4"
+  }
+}
