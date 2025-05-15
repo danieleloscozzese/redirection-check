@@ -2,24 +2,37 @@
 <html lang="en">
   <head>
     <title>Redirection checker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <script defer src="./clicks.js"></script>
+    <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <h1>Enter the destination URL then click the button to go to it.</h1>
 
-    <label for="url">URL:</label>
-    <input
-      type="url"
-      placeholder="https://example.com"
-      required
-      autofocus
-      id="destination"
-    />
-    <button type="button" id="in-new-tab">Open in a new tab</button>
-    <button type="button" id="in-this-tab">Open in this tab</button>
-    <button type="button" id="in-default-target">
-      Open in the default target
-    </button>
-    <button type="button" id="set-as-location">Set as the current URL</button>
+    <div>
+      <div>
+        <label for="destination">URL:</label>
+        <input
+          type="url"
+          placeholder="https://example.com"
+          required
+          autofocus
+          id="destination"
+        />
+      </div>
+
+      <hr />
+
+      <div>
+        <button type="button" id="in-new-tab">Open in a new tab</button>
+        <button type="button" id="in-this-tab">Open in this tab</button>
+        <button type="button" id="in-default-target">
+          Open in the default target
+        </button>
+        <button type="button" id="set-as-location">
+          Set as the current URL
+        </button>
+      </div>
+    </div>
   </body>
 </html>
